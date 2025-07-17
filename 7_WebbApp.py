@@ -5,7 +5,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Loading saved model
-loaded_model = pickle.load(open('C:\\Users\\HP\\OneDrive\\Desktop\\Scikit-learn\\trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 # Creating a function for prediction
 def diabetes_prediction(input_data):
